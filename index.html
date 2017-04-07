@@ -10,25 +10,71 @@
     <!-- Bootstrap -->
     <link href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Owlcarousel -->
+    <link rel="stylesheet" href="lib/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlcarousel/owl.theme.default.min.css">
+
+    <!-- Main -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <li data-i18n="message-hello">Non funziona</li>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
 
-    <!-- jQuery -->
-    <script src="lib/jquery-3.2.0.min.js"></script>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 
-    <!-- Bootstrap -->
-    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<div class="owl-carousel">
+    <div> Your Content </div>
+</div>
 
-    <!-- i18n -->
-    <script src="lib/i18n/jquery.i18n.js"></script>
-    <script src="lib/i18n/jquery.i18n.messagestore.js"></script>
-    <script src="lib/i18n/jquery.i18n.fallbacks.js"></script>
-    <script src="lib/i18n/jquery.i18n.parser.js"></script>
-    <script src="lib/i18n/jquery.i18n.emitter.js"></script>
-    <script src="lib/i18n/jquery.i18n.language.js"></script>
-    <script src="js/i18n.js"></script>
+<!-- jQuery -->
+<script src="lib/jquery-3.2.0.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<!-- i18n -->
+<script src="lib/i18n/jquery.i18n.js"></script>
+<script src="lib/i18n/jquery.i18n.messagestore.js"></script>
+<script src="lib/i18n/jquery.i18n.fallbacks.js"></script>
+<script src="lib/i18n/jquery.i18n.parser.js"></script>
+<script src="lib/i18n/jquery.i18n.emitter.js"></script>
+<script src="lib/i18n/jquery.i18n.language.js"></script>
+<script src="js/i18n.js"></script>
+
+<!-- Owlcarousel -->
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/owlcarousel.js"></script>
 
 </body>
 </html>
